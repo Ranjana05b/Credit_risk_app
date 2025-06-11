@@ -2,7 +2,7 @@
 This project is a Flask-based web application that predicts whether a customer is likely to default on their next credit card payment. It uses a logistic regression model trained on a dataset balanced using SMOTE (Synthetic Minority Over-sampling Technique).
 
 **🚀 Demo**
-Try the live version (if hosted):
+Try the live version:
 👉 https://credit-risk-app-9y67.onrender.com
 
 **📂 Project Structure**
