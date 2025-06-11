@@ -3,17 +3,24 @@ This project is a Flask-based web application that predicts whether a customer i
 
 **🚀 Demo**
 Try the live version (if hosted):
-👉** https://credit-risk-app-9y67.onrender.com**
+👉 https://credit-risk-app-9y67.onrender.com
 
 **📂 Project Structure**
 .
 ├── app.py                 # Main Flask application
+
 ├── model.pkl              # Trained logistic regression model
+
 ├── templates/
+
 │   └── index.html         # UI for input and prediction
+
 ├── requirements.txt       # Python dependencies
+
 ├── Procfile               # Deployment file for Render
+
 └── README.md              # Project documentation
+
 
 **🧠 Model Overview**
 Algorithm: Logistic Regression (via statsmodels)
@@ -39,11 +46,17 @@ PAY_AMT1 to PAY_AMT6
 **📘 Data Dictionary**
 Feature	Description
 LIMIT_BAL	Credit limit 
+
 SEX	Gender (1 = Male, 2 = Female)
+
 EDUCATION	Education level (1 = Graduate, 2 = University, 3 = High school, 4 = Others)
+
 MARRIAGE	Marital status (1 = Married, 2 = Single, 3 = Others)
+
 AGE	Age of the customer
+
 PAY_1 to PAY_6	Repayment status (0 = On time, 1–9 = Delay in months)
+
 PAY_AMT1 to PAY_AMT6	Amount paid in respective month
 
 **💡 Features**
@@ -63,6 +76,7 @@ Deployed for free using Render.com
 **1. Clone the repo:**
 
 git clone [https://github.com/Ranjana05b/credit-risk-app.git](https://github.com/Ranjana05b/Credit_risk_app.git)
+
 cd credit-risk-app
 
 **2. Install dependencies:**
