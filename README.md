@@ -38,7 +38,7 @@ PAY_AMT1 to PAY_AMT6
 
 **📘 Data Dictionary**
 Feature	Description
-LIMIT_BAL	Credit limit
+LIMIT_BAL	Credit limit 
 SEX	Gender (1 = Male, 2 = Female)
 EDUCATION	Education level (1 = Graduate, 2 = University, 3 = High school, 4 = Others)
 MARRIAGE	Marital status (1 = Married, 2 = Single, 3 = Others)
@@ -62,7 +62,7 @@ Deployed for free using Render.com
 **🧪 How to Run Locally**
 **1. Clone the repo:**
 
-git clone https://github.com/Ranjana05b/credit-risk-app.git
+git clone [https://github.com/Ranjana05b/credit-risk-app.git](https://github.com/Ranjana05b/Credit_risk_app.git)
 cd credit-risk-app
 
 **2. Install dependencies:**
